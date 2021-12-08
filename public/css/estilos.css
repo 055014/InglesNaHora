@@ -1,9 +1,12 @@
 .conteudo{
-font-size: large;
+    font-size: large;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 .card-body{
-text-align: center;
+    text-align: center;
+    
 }
-
-
-

@@ -10,7 +10,11 @@
     <link rel ="stylesheet" href="public/css/bootstrap.min.css.map">
     <link rel="stylesheet" href="public/css/estilos.css">
 
+
     <link rel="shortcut icon" type="imagex/png" href="public/imagens/livros.ico">
+
+    <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
     
     
 </head>
@@ -24,32 +28,32 @@
           <div class="justify-content-end" >
             <ul class="navbar-nav ms-auto align">
 
-             <li class="nav-item" id="intro-menu"> 
+             <li class="nav-item"> 
              <a class = "nav-link" 
-                 href="#">Introdução</a>
+                 href="#introducao">Introdução</a>
                 </li>
 
-                <li class="nav-item" id="reg-menu"> 
+                <li class="nav-item"> 
              <a class = "nav-link" 
-                 href="#">Verbos regulares</a>
+                 href="#regulares">Verbos regulares</a>
                 </li>
 
-                <li class="nav-item" id="irreg-menu"> 
+                <li class="nav-item"> 
              <a class = "nav-link" 
-                 href="#">Verbos irregulares</a>
+                 href="#irregulares">Verbos irregulares</a>
                 </li>
 
-                <li class="nav-item" id="quiz-menu"> 
+                <li class="nav-item"> 
               <a class="nav-link" 
-                 href="#">Quizz</a>
+                 href="#quiz">Quiz</a>
                 </li>
-                <li class="nav-item" id="eq-menu"> 
+                <li class="nav-item"> 
              <a class = "nav-link" 
-                 href="#">Equipe</a>
+                 href="#equipe">Equipe</a>
                 </li>
-                <li class="nav-item" id="cont-menu"> 
+                <li class="nav-item"> 
              <a class = "nav-link" 
-                 href="#">Contato</a>
+                 href="#contato">Contato</a>
                 </li>
                 </ul>
               
@@ -62,15 +66,19 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    
     <!--Conteúdo-->
 
     <!--Introdução-->
-    
-    <div class="container bg-white col-md-7 ">
+    <main>
+    <section id="introducao">
+    <div class="container bg-white col-md-7">
       <div class="row">
           <div class="col-md-13">
               
-              <h2 class="text-center" id="introducao"> O que são verbos?</h2>
+              <h2 class="text-center"> O que são verbos?</h2>
               <br>
               <p class="conteudo">
                 Um <strong> Verbo (verb)</strong> são palavras que expressam ação ou estado: correr, fazer, perguntar.<br> 
@@ -84,17 +92,19 @@
           <p class="conteudo"> Assim como na língua portuguesa, em inglês existem os verbos regulares e os irregulares, dependendo da conjugação que apresentam. Os regulares seguem uma conjugação padrão, já os irregulares não, por isso costumam ser mais complicados para os iniciantes no estudo da língua inglesa.</p>
       </div>
     </div>
+  </section>
+    <!---->
 
         <!--Verbos regulares-->
 
-         <div id="regulares">
+           <section id="regulares">
          <div class="container bg-white col-md-7">
          <div class="row">
-          <h3 class="text-center col-md-12" > Os verbos regulares</h3>
+          <h3 class="text-center col-md-12"> Os verbos regulares</h3>
           <br>
           <br>
           <br>
-          <p class="conteudo"> No inglês, também existem as formas verbais, o <strong>Simple Past</strong>, por exemplo, caracteriza ações realizadas e finalizadas no passado. Enquanto o <strong> Past Pasticiple</strong>, é usado em estruturas complementares, e também pode desempenhar o papel de adjetivo.
+          <p class="conteudo"> No inglês, também existem as formas verbais, o <strong>Simple Past</strong>, por exemplo, caracteriza ações realizadas e finalizadas no passado. Enquanto o <strong> Past Participle</strong>, é usado em estruturas complementares, e também pode desempenhar o papel de adjetivo.
       </p>
           <p class="conteudo"> Logo, os verbos regulares são aqueles cujas flexões de <strong> Simple Past</strong> (passado simples) e de<strong> Past Participle</strong>  (particípio passado) são formadas pelos acréscimos: <strong> -ed, -ied ou -d.</strong></p>
 
@@ -107,7 +117,9 @@
 
           <p class="conteudo"> Na maioria dos verbos regulares, para colocá-los no passado, basta acrescentar o <strong> -ed</strong> no final.</p>
 
-          <p class="conteudo"> Alguns exemplos com <strong> ed: </strong></p>
+          <p class="conteudo"> Alguns exemplos com <strong> ed </strong>:</p>
+
+          
 
           <div class= "bg-white pb-4">
 <table class="table table-striped table-bordered text-center">
@@ -122,10 +134,10 @@
   </thead>
 <tbody>
   <tr>
-    <td>Agree</td>
-    <td>Agreed</td>
-    <td>Agreed</td>
-    <td>Concordar</td>
+    <td>Travel</td>
+    <td>Travelled</td>
+    <td>Travelled</td>
+    <td>Viajar</td>
   </tr>
   <tr>
   <td>Answer</td>
@@ -134,24 +146,84 @@
     <td>Responder</td>
     </tr>
     <tr>
-      <td>Apologize</td>
-        <td>Apologized</td>
-        <td>Apologized</td>
-        <td>Pedir desculpas</td>
+      <td>Talk</td>
+        <td>Talked</td>
+        <td>Talked</td>
+        <td>Falar</td>
         </tr>
         <tr>
-          <td>Invite</td>
-            <td>Invited</td>
-            <td>Invited</td>
-            <td>Convidar</td>
+          <td>Walk</td>
+            <td>Walked</td>
+            <td>Walked</td>
+            <td>Andar</td>
             </tr>
 </tbody>
 </table>
+
+<p class="conteudo">OBS: em “travel” dobrou-se a última letra antes de colocar o -ED, sabe por que? Pois o verbo que terminar, sempre, com a seguinte ordem > Consoante, vogal, consoante (o famoso CVC) terá que ter a última letra repetida para aceitar o sufixo -ED. </p>
+
+<h4 class="text-center col-md-12">
+   O uso do <strong> -d</strong>
+
+</h4>
+<p class="conteudo">Aos verbos que terminam em <strong> e</strong>, basta apenas acrescentar o <strong> -d</strong></p>
+<p class="conteudo"> Alguns exemplos com <strong> -d</strong>:</p>
+
+<div class="bg-white pb-4">
+  <table class="table table-striped table-bordered text-center">
+    <thead class="bg-success text-white">
+      <tr>
+        <th scope="col">Verbo</th>
+        <th scope="col"> Simple Past (Passado Simples)</th>
+        <th scope="col"> Particípio Passado (Past Participle)</th>
+        <th scope="col"> Tradução </th>
+      </tr>
+
+    </thead>
+    <tbody>
+      <tr>
+      <td>Arrive</td>
+      <td>Arrived</td>
+      <td>Arrived</td>
+      <td>Chegar</td>
+      </tr>
+
+      <tr>
+        <td>Like</td>
+        <td>Liked</td>
+        <td>Liked</td>
+        <td>Gostar</td>
+        </tr>
+
+        <tr>
+          <td>Love</td>
+          <td>Loved</td>
+          <td>Loved</td>
+          <td>Amar</td>
+          </tr>
+
+          <tr>
+            <td>Admire</td>
+            <td>Admired</td>
+            <td>Admired</td>
+            <td>Admirar</td>
+            </tr>
+
+
+
+    </tbody>
+
+
+  </table>
+</div>
+
+
+
 <h4 class="text-center col-md-12">
   O uso do <strong> -ied</strong>
 </h4>
 <p class="conteudo"> Quando o verbo termina com a letra<strong> -y</strong> basta substituir o -y por <strong>-ied</strong><p>
-<p class="conteudo"> Alguns exemplos com <strong> -ied: </strong> </p>
+<p class="conteudo"> Alguns exemplos com <strong> -ied </strong>: </p>
 
 <div class= "bg-white pb-4">
   <table class="table table-striped table-bordered text-center">
@@ -195,41 +267,68 @@
 </div>
 </div>
          </div>
+      
+<div>
+</section>
 
-<div id="irregulares">
+<!--verbos irregulares-->
+
+
+<section id="irregulares">
+  
 <div class="container bg-white col-md-7">
   <div class="row">
     
-      <h3 class="text-center col-md-12"> Os Verbos irregulares</h3>
-    
-   
+      <h3 class="text-center col-md-12" > Os Verbos irregulares</h3>
       <br>
       <br>
       <br>
-      <p class="conteudo">Diferente dos verbos regulares, os irregulares não seguem um padrão, cada palavra tem uma forma diferente</p>
+      <p class="conteudo">Diferente dos verbos regulares, os irregulares não seguem um padrão, cada palavra tem uma forma diferente.</p>
+      <p class="conteudo"> <strong>To be</strong> = Was(simple past)  Been(past participle)</p>
+      <p class="conteudo"> <strong>To break</strong> = Broke(simple past)  Broken(past participle)</p>
 
+      <p class="conteudo"> Os verbos acima têm formações próprias quando conjugados no simple past e past participle, não havendo qualquer regra específica.</p>
+      <p class="conteudo"> Existem milhares de verbos no inglês,  e cerca de 600 deles são irregulares.</p>
+<br>
+      <h4 class="text-center col-md-12"> Como aprender? </h4>
+      
+      <p class="conteudo">Como não seguem regras predefinidas é um pouco mais difícil aprender, mas não impossível. É muito comum encontrar tabelas prontas para memorização dos verbos irregulares nos livros e sites, elas são úteis, mas essa não é a melhor forma de aprender, algumas ténicas válidas são:</p>
 
+      <h4 class="text-center col-md-12">1- Focar nos verbos mais usados</h4>
+      <p class="conteudo">Não tente aprender tudo de uma vez, apesar de mais de 600 verbos serem irregulares, muitos são usados apenas em situações muito específicas. Por isso, foque apenas nos mais usados, aqueles que se referem a atividades do cotidiano. </p>
+
+      <h4 class="text-center col-md-12">2- Revisar e treinar</h4>
+      <p class="conteudo"> Outra técnica útil é revisar os verbos já estudados, anote, crie frases e revise de tempos em tempos, dessa forma, é possível aprender, sem apenas decorar.</p>
     
     </div>
   </div>
-</div>
-</div>
+
+</section>
+<!---->
 
   <!--Quizz-->
-  <div id="quiz">
+  
+  <section id="quiz">
     <div class="container col-md-7">
-  <h3 class="text-center">Quiz</h3>
+  <h3 class="text-center" >Quiz</h3>
   <hr>
+  <h4 class="text-center">Aprendeu bastante? responda o quiz </h4>
+  <br>
+<script>(function(q,u,i,z,r){z=q.createElement(u),r=q.getElementsByTagName(u)[0];z.async=1;z.src=i;r.parentNode.insertBefore(z,r);})(document,'script','https://pt.quizur.com/js/embedder.js');</script><ins class="quizurembed" data-id="/trivia/verbos-regulares-e-irregulares-LnQh" ></ins>
+
+  <br>
   <br>
 </div>
-  </div>
+</section>
+ 
 
   <!--Equipe-->
-  <div id="equipe">
+
+  <section id="equipe">
     <div class="container">
       <div class="row">
       <div class="col-12">
-        <h3 class="text-center">Equipe de desenvolvimento</h3>
+        <h3 class="text-center" >Equipe de desenvolvimento</h3>
         <hr>
         <br>
        </div>
@@ -267,12 +366,20 @@
   
     </div>
   </div>
+  </section>
+  <!---->
+
+ 
+  
   <br>
+  
+
 
           
     
 
 <!--Rodapé-->
+<section id="contato">
       <footer class="text-center text-sm start text-white bg-dark">
         <!-- Grid container -->
         <div class="container p-2 pb-0">
@@ -293,7 +400,7 @@
               <hr class="w-100 clearfix d-md-none" />
     
               
-              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" id="contato">
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" id="contato2">
                 <h6 class="text-uppercase mb-4 font-weight-bold">Fale conosco</h6>
                 <p><i class="fas fa-home mr-3"></i> Pernambuco</p>
                 <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
@@ -315,7 +422,7 @@
               <div class="col-md-7 col-lg-12 text-center text-md-start">
                 
                 <div class="p-2 text-center">
-                  © 2021 Copyright:
+                  © 2021 Copyright: www.inglesnahora.com
                   
                 </div>
                 
@@ -325,17 +432,15 @@
           </section>
         </div>
       </footer>
+    </section>
+    </main>
 
     
 </body>
 <!--Scripts-->
-<script src="public/js/jquery-3.6.0.min.js">
-</script>
+<script src="public/js/jquery-3.6.0.min.js"></script>
 <script src="public/js/bootstrap.bundle.min.js">
 </script>
 <script src="public/js/bootstrap.bundle.min.js.map">
 </script>
-<script src="public/js/scripts.js">
-</script>
-
 </html>
