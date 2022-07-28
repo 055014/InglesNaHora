@@ -4,9 +4,24 @@
 
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
 }
 
 .card-body{
     text-align: center;
+    
+}
+
+@media screen and (max-width: 991px){
+    nav li{
+        float: none;
+        text-align: center;
+    }
+
+    body section {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+    }
     
 }
